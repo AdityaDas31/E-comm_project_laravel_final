@@ -27,7 +27,7 @@
 <div class="container">
     <div class="navbar">
         <div class="logo">
-            <a href="/"><img src="{{URL('imagess/logo2.png')}}" alt="logo" width="125px"></a>
+            <a href="/"><img src="{{URL('user/imagess/logo2.png')}}" alt="logo" width="125px"></a>
         </div>
         <nav>
             <ul id="MenuItems">
