@@ -29,7 +29,11 @@ Route::get('/about', function () {
     return view('user\userabout');
 });
 
-Route::get('/userlogout', 
+Route::get('/contact', function () {
+    return view('user\usercontact');
+});
+
+Route::get('/userlogout',
 [App\Http\Controllers\UserControllers::class, 'products'])->
 name('products');
 

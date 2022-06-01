@@ -34,8 +34,8 @@
                 <li><a href="/" class="activee">Home</a></li>
                 <!-- <li><a href="product.php" class="activee">Products</a></li> -->
                 <li><a href="about" class="activee active">About</a></li>
-                <li><a href="account" class="activee">Account</a></li>
                 <li><a href="contact" class="activee">Contact</a></li>
+                <li><a href="account" class="activee">Account</a></li>
             </ul>
         </nav>
         <a href="cart"><img src="{{URL('user/imagess/cart.png')}}" alt="cart" width="30px" height="30px"></a>
