@@ -38,7 +38,7 @@
             </div>
         </div>
         <hr>
-        <p class="copyright">Â© Copyright <script>document.write(new Date().getFullYear())</script> - TINY TRESSERS</p>
+        <p class="copyright">© Copyright <script>document.write(new Date().getFullYear())</script> - TINY TRESSERS</p>
     </div>
 </div>
 

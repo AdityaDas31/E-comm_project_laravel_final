@@ -22,13 +22,13 @@
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                <ul class="nav navbar-nav">
                   <li class="menu-title">Menu</li>
-                  <li class="menu-item-has-children dropdown">
+                  {{-- <li class="menu-item-has-children dropdown">
                      <a href="{{url('/categories')}}" >Category Master</a>
-                  </li>
+                  </li> --}}
                   <li class="menu-item-has-children dropdown">
                      <a href="{{url('/products')}}" > Product Master</a>
                   </li>
-				  <li class="menu-item-has-children dropdown">
+				  {{-- <li class="menu-item-has-children dropdown">
                      <a href="{{url('/categories')}}" > Order Master</a>
                   </li>
 
@@ -37,7 +37,7 @@
                   </li>
 				  <li class="menu-item-has-children dropdown">
                      <a href="{{url('/categories')}}" > Contact Us</a>
-                  </li>
+                  </li> --}}
 
                </ul>
             </div>
@@ -78,64 +78,64 @@
                            {{ csrf_field() }}
                            {{ method_field('put') }}
 							<div class="card-body card-block">
-							   <div class="form-group">
+							   {{-- <div class="form-group">
 									<label for="categories" class=" form-control-label">Categories</label>
 									<select class="form-control" name="categories_id">
 										<option>Select Category</option>
 										<!-- here was the sql query -->
 									</select>
-								</div>
+								</div> --}}
 								<div class="form-group">
 									<label for="categories" class=" form-control-label">Product Name</label>
 									<input type="text" name="name" placeholder="Enter product name" class="form-control" required value="">
 								</div>
-								
+
 								<div class="form-group">
 									<label for="categories" class=" form-control-label">MRP</label>
 									<input type="text" name="mrp" placeholder="Enter product mrp" class="form-control" required value="">
 								</div>
-								
+
 								<div class="form-group">
 									<label for="categories" class=" form-control-label">Price</label>
 									<input type="text" name="price" placeholder="Enter product price" class="form-control" required value="">
 								</div>
-								
+
 								<div class="form-group">
 									<label for="categories" class=" form-control-label">Qty</label>
 									<input type="text" name="qty" placeholder="Enter qty" class="form-control" required value="">
 								</div>
-								
+
 								<div class="form-group">
 									<label for="categories" class=" form-control-label">Image</label>
 									<input type="file" name="img" class="form-control">
 								</div>
-								
+
 								<div class="form-group">
 									<label for="categories" class=" form-control-label">Short Description</label>
 									<textarea name="short_desc" placeholder="Enter product short description" class="form-control" required></textarea>
 								</div>
-								
+
 								<div class="form-group">
 									<label for="categories" class=" form-control-label">Description</label>
 									<textarea name="description" placeholder="Enter product description" class="form-control" required></textarea>
 								</div>
-								
+
 								<div class="form-group">
 									<label for="categories" class=" form-control-label">Meta Title</label>
 									<textarea name="meta_title" placeholder="Enter product meta title" class="form-control"></textarea>
 								</div>
-								
+
 								<div class="form-group">
 									<label for="categories" class=" form-control-label">Meta Description</label>
 									<textarea name="meta_desc" placeholder="Enter product meta description" class="form-control"></textarea>
 								</div>
-								
+
 								<div class="form-group">
 									<label for="categories" class=" form-control-label">Meta Keyword</label>
 									<textarea name="meta_keyword" placeholder="Enter product meta keyword" class="form-control"></textarea>
 								</div>
-								
-								
+
+
 							   <button id="payment-button" name="submit" type="submit" class="btn btn-lg btn-info btn-block">
 							   <span id="payment-button-amount">Submit</span>
 							   </button>
@@ -147,7 +147,7 @@
                </div>
             </div>
          </div>
-         
+
 
 
          <div class="clearfix"></div>
@@ -168,4 +168,3 @@
       <script src="assets/js/main.js" type="text/javascript"></script>
    </body>
 </html>
-         

@@ -33,8 +33,8 @@
     {{-- <td>{{ $product->id }}</td> --}}
     <img src="{{ url('public/image/'.$product->img_name) }}"class='card-img-top' alt='...'>
     <h5 class='card-title text-center text-dark'>{{ $product->name }}</h5>
-    <h5 class='card-text text-center text-dark'>{{ $product->mrp }}</h5>
-    <h5 class='card-text text-center text-dark'>{{ $product->price }}</h5>
+    <h5 class='card-text text-center text-dark'>MRP RS: {{ $product->mrp }}</h5>
+    <h5 class='card-text text-center text-dark'>PRICE RS: {{ $product->price }}</h5>
 
     </div>
     </div>

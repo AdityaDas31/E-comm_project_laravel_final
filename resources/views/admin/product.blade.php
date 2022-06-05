@@ -22,13 +22,13 @@
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                <ul class="nav navbar-nav">
                   <li class="menu-title">Menu</li>
-                  <li class="menu-item-has-children dropdown">
+                  {{-- <li class="menu-item-has-children dropdown">
                      <a href="{{url('/categories')}}" >Category Master</a>
-                  </li>
+                  </li> --}}
                   <li class="menu-item-has-children dropdown">
                      <a href="{{url('/products')}}" > Product Master</a>
                   </li>
-				  <li class="menu-item-has-children dropdown">
+				  {{-- <li class="menu-item-has-children dropdown">
                      <a href="{{url('/categories')}}" > Order Master</a>
                   </li>
 
@@ -37,7 +37,7 @@
                   </li>
 				  <li class="menu-item-has-children dropdown">
                      <a href="{{url('/categories')}}" > Contact Us</a>
-                  </li>
+                  </li> --}}
 
                </ul>
             </div>

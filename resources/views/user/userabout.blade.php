@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TINY TRESSERS--About Us</title>
+    {{-- <link rel="shortcut icon" type="image/x-icon" href="{{URL('user/imagess/i1.png')}}"> --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="{{URL('user/css/style.css')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -104,12 +105,12 @@
                 <h3 class="sizeb">Download Our App</h3>
                 <p>Download App for Android ios mobile phone.</p>
                 <div class="app-logo">
-                    <img src="{{URL('imagess/play_store.png')}}" alt="image">
-                    <img src="{{URL('imagess/app_store.png')}}" alt="image">
+                    <img src="{{url('user/imagess/play_store.png')}}" alt="image">
+                    <img src="{{URL('user/imagess/app_store.png')}}" alt="image">
                 </div>
             </div>
             <div class="footer-col-2">
-                <img src="{{URL('imagess/logo3.png')}}" alt="logo">
+                <img src="{{URL('user/imagess/logo3.png')}}" alt="logo">
                 <p>Our Purpose Is To Make The Pleasure and Benefits of Your Baby Accessible to the Many</p>
             </div>
             <div class="footer-col-3">

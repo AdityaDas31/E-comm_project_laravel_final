@@ -145,10 +145,9 @@
     <div class='card-body'>
     <img src="{{ url('public/image/'.$product->img_name) }}"class='card-img-top' alt='...'>
     <h5 class='card-title text-center text-dark'>{{ $product->name }}</h5>
-    <h5 class='card-text text-center text-dark'>{{ $product->mrp }}</h5>
-    <h5 class='card-text text-center text-dark'>{{ $product->price }}</h5>
-    <button type='button' class='btn btn-warning text-white w-100' value='Buy Now'>Buy Now</button>
-
+    <h5 class='card-text text-center text-dark'>MRP RS: {{ $product->mrp }}</h5>
+    <h5 class='card-text text-center text-dark'>PRICE RS: {{ $product->price }}</h5>
+    <a href="https://rzp.io/l/pgF2eUP" ><button type='button' class='btn btn-warning text-white w-100' value='Buy Now'>Buy Now</button></a>
     </div>
     </div>
 
@@ -301,7 +300,7 @@
             </div>
         </div>
         <hr>
-        <p class="copyright">Â© Copyright <script>document.write(new Date().getFullYear())</script> - TINY TRESSERS</p>
+        <p class="copyright">© Copyright <script>document.write(new Date().getFullYear())</script> - TINY TRESSERS</p>
     </div>
 </div>
 
