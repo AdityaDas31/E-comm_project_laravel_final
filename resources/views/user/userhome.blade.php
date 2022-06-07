@@ -40,7 +40,7 @@
 
         <!-- ----------Search Box----------- -->
 
-        <div class="ho">
+        {{-- <div class="ho">
             <form action="">
                 <!-- <div class="poi"> -->
             <i class="fa fa-search" aria-hidden="true"></i>
@@ -53,7 +53,7 @@
               <!-- </div> -->
             </form>
         </div>
-        <div id="display"></div>
+        <div id="display"></div> --}}
 
 
 
